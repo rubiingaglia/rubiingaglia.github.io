@@ -1,0 +1,66 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*-----------------home----------------*/
+#home
+{
+  margin-top: 20px;
+}
+#home h3
+{
+  font-size: 30px;
+}
+#home a
+{
+  color: black;
+}
+#home a:hover
+{
+  color: lightblue;
+  text-decoration-line: none;
+}
+
+/*-----------------intro----------------*/
+#intro h2
+{
+  padding-top: 150px;
+}
+#intro h4
+{
+  padding-top: 50px;
+}
+#intro h1
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#intro a
+{
+  color: black;
+  font-size: 40px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+#intro a:hover
+{
+  color: lightblue;
+  text-decoration-line: none;
+}
+/*-----------------pageturn----------------*/
+#pageturn
+{
+  margin-top: 120px;
+}
+#pageturn a
+{
+  color: black;
+}
+#pageturn a:hover
+{
+  color: lightblue;
+  text-decoration-line: none;
+}
