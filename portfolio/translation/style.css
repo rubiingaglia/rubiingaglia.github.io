@@ -1,0 +1,222 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*-----------------home----------------*/
+#home
+{
+  margin-top: 20px;
+}
+#home h3
+{
+  font-size: 30px;
+}
+#home a
+{
+  color: black;
+}
+#home a:hover
+{
+  color: lightblue;
+  text-decoration-line: none;
+}
+
+/*-----------------intro----------------*/
+#intro h1
+{
+  padding-top: 200px;
+  padding-bottom: 180px;
+  font-size: 70px;
+}
+#intro h6
+{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 180px;
+}
+#intro h2
+{
+  padding-top: 25px;
+  font-size: 45px;
+}
+
+/*-----------------quote1----------------*/
+#quote1
+{
+  background-image: url("img/watercolour3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  opacity: 0.9;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white;
+}
+#quote1 h2
+{
+  font-size: 45px;
+}
+/*-----------------about----------------*/
+#about h2
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 45px;
+}
+#about h4
+{
+  padding-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*-----------------filler----------------*/
+#filler
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#filler img
+{
+  max-width: 100%;
+}
+
+/*-----------------result----------------*/
+#result h2
+{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 45px;
+}
+#result h4
+{
+  padding-bottom: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*-----------------challenges----------------*/
+#challenges h2
+{
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-size: 45px;
+}
+#challenges p
+{
+  font-size: 18px;
+}
+
+/*-----------------quote2----------------*/
+#quote2
+{
+  background-image: url("img/watercolour2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white;
+}
+
+#quote2 h2
+{
+  font-size: 45px;
+}
+/*-----------------process----------------*/
+#process h2
+{
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-size: 45px;
+}
+#process h4
+{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+}
+#process p
+{
+  font-size: 18px;
+  margin-right: 10%;
+}
+
+/*-----------------highlights----------------*/
+#highlights h2
+{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-size: 45px;
+}
+#highlights h3
+{
+  padding-top: 40px;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+#highlights p
+{
+  font-size: 18px;
+}
+#highlights img
+{
+  max-width: 600px;
+  min-width: 200px;
+  max-height: 250px;
+  min-height: 200px
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#highlights a
+{
+  color: black;
+}
+#highlights a:hover
+{
+  color: lightblue;
+}
+
+/*-----------------skills----------------*/
+#skills h2
+{
+  font-size: 45px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  color: black;
+}
+
+#skills h4
+{
+  font-size: 25px;
+  list-style: none;
+  padding-top: 10px;
+  color: black;
+}
+
+/*-----------------pageturn----------------*/
+#pageturn
+{
+  margin-top: 60px;
+}
+#pageturn a
+{
+  color: black;
+}
+#pageturn a:hover
+{
+  color: lightblue;
+  text-decoration-line: none;
+}
