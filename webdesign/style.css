@@ -126,22 +126,6 @@
   height: auto;
 }
 
-/*-----------------skills----------------*/
-#skills h2
-{
-  font-size: 45px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  color: black;
-}
-
-#skills h4
-{
-  font-size: 25px;
-  list-style: none;
-  color: black;
-  padding-top: 10px;
-}
 
 /*-----------------pageturnbottom----------------*/
 #pageturnbottom

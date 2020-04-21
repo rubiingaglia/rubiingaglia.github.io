@@ -47,21 +47,46 @@
 #quote1
 {
   background-image: url("img/watercolour3.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-color: lightblue;
   opacity: 0.9;
   margin-top: 40px;
   margin-bottom: 30px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+
+  padding-top: 10%;
+  padding-bottom: 10%;
   padding-left: 20%;
   padding-right: 20%;
   color: white;
 }
 #quote1 h2
 {
+  font-size: 5vw;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+#quote1 h5
+{
+  font-size: 2.5vw;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+/*-----------------skills----------------*/
+#skills h2
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 45px;
+}
+#skills h4
+{
+  padding-bottom: 10px;
+}
+
+#skills
+{
+  margin-bottom: 20px;
 }
 /*-----------------about----------------*/
 #about h2
@@ -118,22 +143,31 @@
 #quote2
 {
   background-image: url("img/watercolour2.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-color: lightblue;
   opacity: 0.9;
   margin-top: 20px;
   margin-bottom: 60px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 20%;
-  padding-right: 20%;
+
+  padding-top: 15%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   color: white;
 }
 
 #quote2 h2
 {
-  font-size: 45px;
+  font-size: 4vw;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#quote2 h5
+{
+  font-size: 2vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 /*-----------------process----------------*/
 #process h2
@@ -187,23 +221,6 @@
 #highlights a:hover
 {
   color: lightblue;
-}
-
-/*-----------------skills----------------*/
-#skills h2
-{
-  font-size: 45px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  color: black;
-}
-
-#skills h4
-{
-  font-size: 25px;
-  list-style: none;
-  padding-top: 10px;
-  color: black;
 }
 
 /*-----------------pageturn----------------*/
