@@ -72,21 +72,21 @@
   margin-top: 40px;
   margin-bottom: 30px;
 
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  padding-left: 15%;
+  padding-right: 15%;
   color: white;
 }
 #quote1 h2
 {
-  font-size: 5vw;
+  font-size: 4.3vw;
   padding-left: 15%;
   padding-right: 10%;
 }
 #quote1 h5
 {
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding-left: 15%;
   padding-right: 10%;
 }
@@ -187,8 +187,8 @@
   margin-top: 20px;
   margin-bottom: 60px;
 
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 12%;
+  padding-bottom: 7%;
   padding-left: 10%;
   padding-right: 10%;
   color: white;
@@ -196,7 +196,7 @@
 
 #quote2 h2
 {
-  font-size: 4vw;
+  font-size: 3.8vw;
   padding-left: 3%;
   padding-right: 3%;
 }
