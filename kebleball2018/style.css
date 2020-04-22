@@ -14,7 +14,7 @@ body
 #sidenav
 {
   height: 100%;
-  width: 60px;
+  width: 8vw;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -27,7 +27,7 @@ body
 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 2.8vw;
+  font-size: 3vw;
   color: black;
   display: block;
 }
@@ -43,44 +43,45 @@ body
 }
 
 /*-----------------intro----------------*/
-#intro
-{
-  margin-left: 60px;
-}
+
 #intro h1
 {
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 60px;
-  font-size: 70px;
+  font-size: 8vw;
+  margin-left: 60px;
 }
 
 #intro h6
 {
     color: black;
-    font-size: 40px;
+    font-size: 3vw;
     margin-bottom: 260px;
+    margin-left: 8vw;
 }
 
 #intro h2
 {
   padding-top: 25px;
-  font-size: 45px;
+  font-size: 4vw;
+  margin-left: 8vw;
 }
-
 /*-----------------goal----------------*/
-#goal
-{
-  margin-left: 60px;
-}
 #goal h2
 {
   padding-top: 25px;
-  font-size: 45px;
+  font-size: 4vw;
+  margin-left: 8vw;
+}
+#goal p
+{
+  margin-left: 8vw;
+  font-size: 1.5vw;
 }
 /*-----------------photo1----------------*/
 #photo1
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #photo1 img
 {
@@ -93,23 +94,26 @@ body
 /*-----------------skills----------------*/
 #skills
 {
-  margin-left: 60px;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 #skills h2
 {
   padding-top: 60px;
   padding-bottom: 40px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #skills h4
 {
+  margin-left: 8vw;
   padding-bottom: 10px;
+  font-size: 2.3vw;
 }
 
 /*-----------------photo2----------------*/
 #photo2
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #photo2 img
 {
@@ -128,23 +132,24 @@ body
 /*-----------------about----------------*/
 #about
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #about h2
 {
   padding-top: 60px;
   padding-bottom: 40px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #about h4
 {
   padding-bottom: 10px;
+  font-size: 2.3vw;
 }
 
 /*-----------------photo3----------------*/
 #photo3
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #photo3 img
 {
@@ -163,24 +168,29 @@ body
 /*-----------------result----------------*/
 #result
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #result h2
 {
   padding-top: 80px;
   padding-bottom: 25px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #result p
 {
-  font-size: 18px;
+  font-size: 2vw;
+  margin-right: 40px;
+}
+#result h5
+{
+  font-size: 2.5vw;
   margin-right: 40px;
 }
 
 /*-----------------result-photo----------------*/
 #result-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #result-photo img
 {
@@ -193,23 +203,23 @@ body
 /*-----------------challenges----------------*/
 #challenges
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #challenges h2
 {
   padding-top: 80px;
   padding-bottom: 25px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #challenges p
 {
-  font-size: 18px;
+  font-size: 2vw;
 }
 
 /*-----------------challenges-photo----------------*/
 #challenges-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #challenges-photo img
 {
@@ -222,29 +232,30 @@ body
 /*-----------------process----------------*/
 #process
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #process h2
 {
   padding-top: 60px;
   padding-bottom: 25px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #process h4
 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 10px;
+  font-size: 2.5vw;
 }
 #process p
 {
-  font-size: 18px;
+  font-size: 2vw;
 }
 
 /*-----------------process-photo----------------*/
 #process-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #process-photo img
 {
@@ -257,29 +268,30 @@ body
 /*-----------------solutions----------------*/
 #solutions
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #solutions h2
 {
   padding-top: 80px;
   padding-bottom: 25px;
-  font-size: 45px;
+  font-size: 4vw;
 }
 #solutions h4
 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 30px;
+  font-size: 2.5vw;
 }
 #solutions p
 {
-  font-size: 18px;
+  font-size: 2vw;
 }
 
 /*-----------------queuing-photo----------------*/
 #queuing-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #queuing-photo img
 {
@@ -292,7 +304,7 @@ body
 /*-----------------entrance-photo----------------*/
 #entrance-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #entrance-photo img
 {
@@ -305,7 +317,7 @@ body
 /*-----------------layout-photo----------------*/
 #layout-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #layout-photo img
 {
@@ -318,7 +330,7 @@ body
 /*-----------------seating-photo----------------*/
 #seating-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #seating-photo img
 {
@@ -331,7 +343,7 @@ body
 /*-----------------interactive-photo----------------*/
 #interactive-photo
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #interactive-photo img
 {
@@ -345,7 +357,7 @@ body
 #pageturn
 {
   margin-top: 60px;
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #pageturn a
 {

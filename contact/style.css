@@ -9,7 +9,7 @@
 #sidenav
 {
   height: 100%;
-  width: 60px;
+  width: 8vw;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -22,7 +22,7 @@
 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 2.8vw;
+  font-size: 3vw;
   color: black;
   display: block;
 }
@@ -40,20 +40,23 @@
 /*-----------------intro----------------*/
 #intro
 {
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #intro h2
 {
   padding-top: 150px;
+  font-size: 3vw;
 }
 #intro h4
 {
   padding-top: 50px;
+  font-size: 2vw;
 }
 #intro h1
 {
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 4vw;
 }
 #intro a
 {
@@ -61,6 +64,7 @@
   font-size: 40px;
   margin-left: 50%;
   margin-right: 50%;
+  font-size: 4vw;
 }
 #intro a:hover
 {
@@ -71,7 +75,7 @@
 #pageturn
 {
   margin-top: 120px;
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 #pageturn a
 {

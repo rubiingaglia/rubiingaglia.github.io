@@ -12,7 +12,7 @@
 }
 #contact h3
 {
-  font-size: 30px;
+  font-size: 3vw;
 }
 #contact a
 {
@@ -29,21 +29,21 @@
 {
   padding-top: 200px;
   padding-bottom: 60px;
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 #intro h2
 {
   color: black;
-  font-size: 60px;
+  font-size: 4vw;
   margin-bottom: 180px;
 }
 
 #intro h6
 {
     color: black;
-    font-size: 40px;
-    margin-bottom: 200px;
+    font-size: 3vw;
+    margin-bottom: 260px;
 }
 
 
@@ -55,7 +55,7 @@ h2
   padding-bottom: 55%;
   margin-bottom: 130px;
   color: white;
-  font-size: ;
+  font-size: 2.5vw;
   max-height: 250px;
 }
 .folio-caption1
