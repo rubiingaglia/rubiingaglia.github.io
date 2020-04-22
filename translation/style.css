@@ -28,14 +28,14 @@
 #intro h1
 {
   padding-top: 200px;
-  padding-bottom: 180px;
+  padding-bottom: 60px;
   font-size: 70px;
 }
 #intro h6
 {
     color: black;
     font-size: 40px;
-    margin-bottom: 180px;
+    margin-bottom: 260px;
 }
 #intro h2
 {
@@ -191,42 +191,75 @@
 /*-----------------highlights----------------*/
 #highlights h2
 {
-  padding-top: 30px;
-  padding-bottom: 25px;
+  padding-top: 40px;
+  padding-bottom: 45px;
   font-size: 45px;
 }
+
 #highlights h3
 {
-  padding-top: 40px;
-  padding-bottom: 5px;
-  font-size: 40px;
-}
-#highlights p
-{
-  font-size: 18px;
-}
-#highlights img
-{
-  max-width: 600px;
-  min-width: 200px;
-  max-height: 250px;
-  min-height: 200px
-  margin-top: 40px;
+  padding-top: 200px;
+  padding-bottom: 100px;
   margin-bottom: 40px;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  max-height: 350px;
 }
-#highlights a
+.highlights1
 {
-  color: black;
+  background-image: url("img/gp.jpg");
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
+}
+.highlights1:hover
+{
+  background-image: none;
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
+}
+
+.highlights2
+{
+  background-image: url("img/purple.jpg");
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
+}
+.highlights2:hover
+{
+  background-image: none;
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
+}
+.highlights3
+{
+  background-image: url("img/wicrop.jpg");
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
+  margin-bottom: 100px;
+}
+.highlights3:hover
+{
+  background-image: none;
+  background-size: cover;
+  background-color: lightblue;
+  opacity: 0.7;
 }
 #highlights a:hover
 {
-  color: lightblue;
+  text-decoration-line: none;
 }
 
 /*-----------------pageturn----------------*/
 #pageturn
 {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 #pageturn a
 {

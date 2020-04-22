@@ -28,7 +28,7 @@
 #intro h1
 {
   padding-top: 200px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   font-size: 60px;
 }
 
@@ -45,19 +45,18 @@
     font-size: 40px;
     margin-bottom: 200px;
 }
-#intro h6:hover
-{
-  color: lightblue;
-}
+
 
 /*-----------------foli----------------*/
 #foli
 h2
 {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 45%;
+  padding-bottom: 55%;
   margin-bottom: 130px;
   color: white;
+  font-size: ;
+  max-height: 250px;
 }
 .folio-caption1
 {
