@@ -95,7 +95,6 @@ body
 #skills
 {
   margin-left: 8vw;
-  margin-right: 8vw;
 }
 #skills h2
 {
@@ -105,7 +104,6 @@ body
 }
 #skills h4
 {
-  margin-left: 8vw;
   padding-bottom: 10px;
   font-size: 2.3vw;
 }
@@ -289,10 +287,6 @@ body
 }
 
 /*-----------------queuing-photo----------------*/
-#queuing-photo
-{
-  margin-left: 8vw;
-}
 #queuing-photo img
 {
   max-width: 100%;
@@ -302,10 +296,6 @@ body
 }
 
 /*-----------------entrance-photo----------------*/
-#entrance-photo
-{
-  margin-left: 8vw;
-}
 #entrance-photo img
 {
   max-width: 100%;
@@ -315,10 +305,6 @@ body
 }
 
 /*-----------------layout-photo----------------*/
-#layout-photo
-{
-  margin-left: 8vw;
-}
 #layout-photo img
 {
   max-width: 100%;
@@ -328,10 +314,6 @@ body
 }
 
 /*-----------------seating-photo----------------*/
-#seating-photo
-{
-  margin-left: 8vw;
-}
 #seating-photo img
 {
   max-width: 100%;
@@ -341,10 +323,6 @@ body
 }
 
 /*-----------------interactive-photo----------------*/
-#interactive-photo
-{
-  margin-left: 8vw;
-}
 #interactive-photo img
 {
   max-width: 100%;
