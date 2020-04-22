@@ -5,26 +5,43 @@
   font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*-----------------home----------------*/
-#home
+/*-----------------sidenav----------------*/
+#sidenav
 {
-  margin-top: 20px;
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-#home h3
+#sidenav a
 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
   font-size: 30px;
-}
-#home a
-{
   color: black;
+  display: block;
 }
-#home a:hover
+#sidenav a:hover
 {
   color: lightblue;
   text-decoration-line: none;
 }
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 /*-----------------intro----------------*/
+#intro
+{
+  margin-left: 60px;
+}
 #intro h1
 {
   padding-top: 200px;
@@ -46,6 +63,7 @@
 /*-----------------quote1----------------*/
 #quote1
 {
+  margin-left: 60px;
   background-image: url("img/watercolour3.jpg");
   background-size: 100%;
   background-position: center;
@@ -73,6 +91,10 @@
   padding-right: 10%;
 }
 /*-----------------skills----------------*/
+#skills
+{
+  margin-left: 60px;
+}
 #skills h2
 {
   padding-top: 40px;
@@ -89,6 +111,10 @@
   margin-bottom: 20px;
 }
 /*-----------------about----------------*/
+#about
+{
+  margin-left: 60px;
+}
 #about h2
 {
   padding-top: 40px;
@@ -105,6 +131,7 @@
 /*-----------------filler----------------*/
 #filler
 {
+  margin-left: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -114,6 +141,10 @@
 }
 
 /*-----------------result----------------*/
+#result
+{
+  margin-left: 60px;
+}
 #result h2
 {
   padding-top: 20px;
@@ -128,6 +159,10 @@
 }
 
 /*-----------------challenges----------------*/
+#challenges
+{
+  margin-left: 60px;
+}
 #challenges h2
 {
   padding-top: 20px;
@@ -142,6 +177,8 @@
 /*-----------------quote2----------------*/
 #quote2
 {
+  margin-left: 60px;
+
   background-image: url("img/watercolour2.jpg");
   background-size: 100%;
   background-position: center;
@@ -170,6 +207,10 @@
   padding-right: 5%;
 }
 /*-----------------process----------------*/
+#process
+{
+  margin-left: 60px;
+}
 #process h2
 {
   padding-top: 10px;
@@ -189,6 +230,10 @@
 }
 
 /*-----------------highlights----------------*/
+#highlights
+{
+  margin-left: 60px;
+}
 #highlights h2
 {
   padding-top: 40px;
@@ -259,6 +304,7 @@
 /*-----------------pageturn----------------*/
 #pageturn
 {
+  margin-left: 60px;
   margin-top: 10px;
 }
 #pageturn a

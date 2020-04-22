@@ -5,26 +5,43 @@
   font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*-----------------home----------------*/
-#home
+/*-----------------sidenav----------------*/
+#sidenav
 {
-  margin-top: 20px;
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-#home h3
+#sidenav a
 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
   font-size: 30px;
-}
-#home a
-{
   color: black;
+  display: block;
 }
-#home a:hover
+#sidenav a:hover
 {
   color: lightblue;
   text-decoration-line: none;
 }
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 /*-----------------intro----------------*/
+#intro
+{
+  margin-left: 60px;
+}
 #intro h2
 {
   padding-top: 150px;
@@ -54,6 +71,7 @@
 #pageturn
 {
   margin-top: 120px;
+  margin-left: 60px;
 }
 #pageturn a
 {

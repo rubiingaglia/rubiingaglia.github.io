@@ -9,26 +9,44 @@ body
 {
   margin: 0;
 }
-/*-----------------home----------------*/
-#home
+
+/*-----------------sidenav----------------*/
+#sidenav
 {
-  margin-top: 20px;
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-#home h3
+#sidenav a
 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
   font-size: 30px;
-}
-#home a
-{
   color: black;
+  display: block;
 }
-#home a:hover
+#sidenav a:hover
 {
   color: lightblue;
   text-decoration-line: none;
 }
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 /*-----------------intro----------------*/
+#intro
+{
+  margin-left: 60px;
+}
 #intro h1
 {
   padding-top: 200px;
@@ -50,12 +68,20 @@ body
 }
 
 /*-----------------goal----------------*/
+#goal
+{
+  margin-left: 60px;
+}
 #goal h2
 {
   padding-top: 25px;
   font-size: 45px;
 }
 /*-----------------photo1----------------*/
+#photo1
+{
+  margin-left: 60px;
+}
 #photo1 img
 {
   max-width: 100%;
@@ -65,6 +91,10 @@ body
 }
 
 /*-----------------skills----------------*/
+#skills
+{
+  margin-left: 60px;
+}
 #skills h2
 {
   padding-top: 60px;
@@ -77,6 +107,10 @@ body
 }
 
 /*-----------------photo2----------------*/
+#photo2
+{
+  margin-left: 60px;
+}
 #photo2 img
 {
   max-width: 80%;
@@ -92,6 +126,10 @@ body
 }
 
 /*-----------------about----------------*/
+#about
+{
+  margin-left: 60px;
+}
 #about h2
 {
   padding-top: 60px;
@@ -104,6 +142,10 @@ body
 }
 
 /*-----------------photo3----------------*/
+#photo3
+{
+  margin-left: 60px;
+}
 #photo3 img
 {
   max-width: 80%;
@@ -119,6 +161,10 @@ body
 }
 
 /*-----------------result----------------*/
+#result
+{
+  margin-left: 60px;
+}
 #result h2
 {
   padding-top: 80px;
@@ -132,6 +178,10 @@ body
 }
 
 /*-----------------result-photo----------------*/
+#result-photo
+{
+  margin-left: 60px;
+}
 #result-photo img
 {
   max-width: 100%;
@@ -141,6 +191,10 @@ body
 }
 
 /*-----------------challenges----------------*/
+#challenges
+{
+  margin-left: 60px;
+}
 #challenges h2
 {
   padding-top: 80px;
@@ -153,6 +207,10 @@ body
 }
 
 /*-----------------challenges-photo----------------*/
+#challenges-photo
+{
+  margin-left: 60px;
+}
 #challenges-photo img
 {
   max-width: 100%;
@@ -162,6 +220,10 @@ body
 }
 
 /*-----------------process----------------*/
+#process
+{
+  margin-left: 60px;
+}
 #process h2
 {
   padding-top: 60px;
@@ -180,6 +242,10 @@ body
 }
 
 /*-----------------process-photo----------------*/
+#process-photo
+{
+  margin-left: 60px;
+}
 #process-photo img
 {
   max-width: 100%;
@@ -189,6 +255,10 @@ body
 }
 
 /*-----------------solutions----------------*/
+#solutions
+{
+  margin-left: 60px;
+}
 #solutions h2
 {
   padding-top: 80px;
@@ -207,6 +277,10 @@ body
 }
 
 /*-----------------queuing-photo----------------*/
+#queuing-photo
+{
+  margin-left: 60px;
+}
 #queuing-photo img
 {
   max-width: 100%;
@@ -216,6 +290,10 @@ body
 }
 
 /*-----------------entrance-photo----------------*/
+#entrance-photo
+{
+  margin-left: 60px;
+}
 #entrance-photo img
 {
   max-width: 100%;
@@ -225,6 +303,10 @@ body
 }
 
 /*-----------------layout-photo----------------*/
+#layout-photo
+{
+  margin-left: 60px;
+}
 #layout-photo img
 {
   max-width: 100%;
@@ -234,6 +316,10 @@ body
 }
 
 /*-----------------seating-photo----------------*/
+#seating-photo
+{
+  margin-left: 60px;
+}
 #seating-photo img
 {
   max-width: 100%;
@@ -243,6 +329,10 @@ body
 }
 
 /*-----------------interactive-photo----------------*/
+#interactive-photo
+{
+  margin-left: 60px;
+}
 #interactive-photo img
 {
   max-width: 100%;
@@ -255,6 +345,7 @@ body
 #pageturn
 {
   margin-top: 60px;
+  margin-left: 60px;
 }
 #pageturn a
 {
