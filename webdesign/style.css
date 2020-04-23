@@ -44,8 +44,8 @@
 }
 #intro h1
 {
-  padding-top: 250px;
-  padding-bottom: 60px;
+  padding-top: 35vh;
+  padding-bottom: 10vh;
   font-size: 6vw;
 }
 
@@ -53,18 +53,17 @@
 {
     color: black;
     font-size: 3vw;
-    margin-bottom: 260px;
+    margin-bottom: 50vh;
 }
 
 #intro h2
 {
-  padding-top: 25px;
+  padding-top: 4vh;
   padding-bottom: 0;
   font-size: 4vw;
 }
 #intro p
 {
-  margin-left: 8vw;
   font-size: 1.5vw;
 }
 
@@ -72,11 +71,13 @@
 #result
 {
   margin-left: 8vw;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
 }
 #result h2
 {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 
@@ -94,7 +95,7 @@
 }
 #challenges h2
 {
-  padding-top: 60px;
+  padding-top: 8vh;
   padding-bottom: 0;
   font-size: 4vw;
 }
@@ -112,7 +113,7 @@
 }
 #process h2
 {
-  padding-top: 60px;
+  padding-top: 8vh;
   padding-bottom: 0;
   font-size: 4vw;
 }
@@ -128,8 +129,8 @@
 }
 #focus-areas h2
 {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 2vh;
   font-size: 4vw;
 }
 
@@ -145,8 +146,8 @@
 }
 #solutions h2
 {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 
@@ -158,19 +159,31 @@
 
 
 /*-----------------pageturnbottom----------------*/
-#pageturnbottom
+#pageturn
 {
   margin-left: 8vw;
+  margin-top: 10px;
 }
-#pageturnbottom
+.navbar
 {
-  margin-top: 60px;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-#pageturnbottom a
+
+.navbar a
 {
   color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration-line: none;
+  font-size: 2vw;
 }
-#pageturnbottom a:hover
+.navbar a:hover
 {
   color: lightblue;
   text-decoration-line: none;

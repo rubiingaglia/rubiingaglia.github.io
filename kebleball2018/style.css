@@ -45,8 +45,8 @@ body
 /*-----------------intro----------------*/
 #intro h1
 {
-  padding-top: 250px;
-  padding-bottom: 60px;
+  padding-top: 35vh;
+  padding-bottom: 10vh;
   font-size: 8vw;
   margin-left: 8vw;
 }
@@ -55,20 +55,13 @@ body
 {
     color: black;
     font-size: 3vw;
-    margin-bottom: 260px;
+    margin-bottom: 40vh;
     margin-left: 8vw;
-}
-
-#intro h2
-{
-  padding-top: 25px;
-  font-size: 4vw;
-  margin-left: 8vw;
 }
 /*-----------------goal----------------*/
 #goal h2
 {
-  padding-top: 25px;
+  padding-top: 4vh;
   font-size: 4vw;
   margin-left: 8vw;
 }
@@ -86,24 +79,26 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------skills----------------*/
 #skills
 {
   margin-left: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 #skills h2
 {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #skills h4
 {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
   font-size: 2.3vw;
 }
 
@@ -116,8 +111,8 @@ body
 {
   max-width: 80%;
   height: auto;
-  padding-top: 80px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 .center
 {
@@ -133,13 +128,13 @@ body
 }
 #about h2
 {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #about h4
 {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
   font-size: 2.3vw;
 }
 
@@ -152,8 +147,8 @@ body
 {
   max-width: 80%;
   height: auto;
-  padding-top: 80px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 .center
 {
@@ -169,8 +164,8 @@ body
 }
 #result h2
 {
-  padding-top: 80px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #result p
@@ -193,8 +188,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------challenges----------------*/
@@ -204,8 +199,8 @@ body
 }
 #challenges h2
 {
-  padding-top: 80px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #challenges p
@@ -222,8 +217,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 70px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------process----------------*/
@@ -233,15 +228,15 @@ body
 }
 #process h2
 {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #process h4
 {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 10px;
+  padding-top: 2vh;
   font-size: 2.5vw;
 }
 #process p
@@ -258,8 +253,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------solutions----------------*/
@@ -269,15 +264,15 @@ body
 }
 #solutions h2
 {
-  padding-top: 80px;
-  padding-bottom: 25px;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
   font-size: 4vw;
 }
 #solutions h4
 {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 30px;
+  padding-top: 4vh;
   font-size: 2.5vw;
 }
 #solutions p
@@ -290,8 +285,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 10px
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------entrance-photo----------------*/
@@ -299,8 +294,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 10px
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------layout-photo----------------*/
@@ -313,8 +308,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 5px;
-  padding-bottom: 5px
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 /*-----------------seating-photo----------------*/
@@ -322,8 +317,8 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------interactive-photo----------------*/
@@ -331,21 +326,36 @@ body
 {
   max-width: 100%;
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 10px
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 /*-----------------pageturn----------------*/
 #pageturn
 {
-  margin-top: 60px;
   margin-left: 8vw;
+  margin-top: 10px;
 }
-#pageturn a
+.navbar
+{
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a
 {
   color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration-line: none;
+  font-size: 2vw;
 }
-#pageturn a:hover
+.navbar a:hover
 {
   color: lightblue;
   text-decoration-line: none;
