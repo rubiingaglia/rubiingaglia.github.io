@@ -43,13 +43,12 @@ body
 }
 
 /*-----------------intro----------------*/
-
 #intro h1
 {
   padding-top: 250px;
   padding-bottom: 60px;
   font-size: 8vw;
-  margin-left: 60px;
+  margin-left: 8vw;
 }
 
 #intro h6
@@ -305,6 +304,11 @@ body
 }
 
 /*-----------------layout-photo----------------*/
+#layout-photo p
+{
+  font-size: 10px;
+  color: grey;
+}
 #layout-photo img
 {
   max-width: 100%;
