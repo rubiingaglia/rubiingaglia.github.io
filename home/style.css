@@ -4,69 +4,87 @@
   padding: 0;
   font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/*-----------------sidenav----------------*/
-#sidenav
+
+/*-----------------topnav----------------*/
+#topnav
 {
+  background-color: white;
+  overflow: hidden;
   height: auto;
-  width: 8vw;
   position: absolute;
   z-index: 1;
   top: 0;
-  right: 0;
-  background-color: white;
-  overflow-x: hidden;
+  right: 20px;
   padding-top: 20px;
 }
-#sidenav a
+#topnav a
 {
   padding: 6px 16px 6px 8px;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 30px;
   color: black;
   display: block;
 }
-#sidenav a:hover
+
+#topnav a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }
 @media screen and (max-height: 450px)
 {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .topnav {padding-top: 15px;}
+  .topnav a {font-size: 18px;}
 }
-
 /*-----------------intro----------------*/
 #intro
 {
-  margin-right: ;
+  margin-top: 25vh;
 }
 #intro h1
 {
-  padding-top: 25vh;
-  padding-bottom: 10vh;
-  font-size: 6vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 5vw;
 }
 
-#intro h2
+#intro span
 {
   color: black;
-  font-size: 4vw;
-  margin-bottom: 40vh;
+  background-color: #D1D2F9;
 }
 
+#intro span:hover
+{
+  color: #D1D2F9;
+  background-color: white;
+  text-decoration-line: none;
+}
+#intro a:hover
+{
+  color: #D1D2F9;
+  background-color: white;
+  text-decoration-line: none;
+}
 #intro h6
 {
+    padding-top: 4vh;
+    padding-bottom: 50vh;
     color: black;
     font-size: 3vw;
-    margin-bottom: 300px;
+}
+#intro h6:hover
+{
+    color: #D1D2F9;
+    text-decoration-line: none;
 }
 
-
 /*-----------------foli----------------*/
-#foli
+#foli h3
 {
-  margin-right: ;
+  color: black;
+  font-size: 28px;
+  padding-bottom: 50px;
 }
 #foli
 h2
@@ -82,7 +100,7 @@ h2
 {
   background-image: url("img/banner2.jpg");
   background-size: cover;
-  background-color: lightblue;
+  background-color: #A3BCF9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -90,7 +108,7 @@ h2
 {
   background-image: none;
   background-size: cover;
-  background-color: lightblue;
+  background-color: #A3BCF9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -99,7 +117,7 @@ h2
 {
   background-image: url("img/gp.jpg");
   background-size: cover;
-  background-color: lightblue;
+  background-color: #FF99C9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -107,7 +125,7 @@ h2
 {
   background-image: none;
   background-size: cover;
-  background-color: lightblue;
+  background-color: #FF99C9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -115,7 +133,7 @@ h2
 {
   background-image: url("img/code.jpg");
   background-size: cover;
-  background-color: lightblue;
+  background-color: #D1D2F9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -123,7 +141,7 @@ h2
 {
   background-image: none;
   background-size: cover;
-  background-color: lightblue;
+  background-color: #D1D2F9;
   opacity: 0.7;
   margin-bottom: 100px;
 }
@@ -159,6 +177,6 @@ h2
 }
 .navbar a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }

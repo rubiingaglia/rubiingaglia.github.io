@@ -13,27 +13,27 @@ body
 /*-----------------sidenav----------------*/
 #sidenav
 {
-  height: 100%;
-  width: 8vw;
+  height: auto;
+  width: 60px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 #sidenav a
 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 30px;
   color: black;
   display: block;
 }
 #sidenav a:hover
 {
-  color: lightblue;
+  color: #A3BCF9;
   text-decoration-line: none;
 }
 @media screen and (max-height: 450px)
@@ -46,9 +46,35 @@ body
 #intro h1
 {
   padding-top: 35vh;
-  padding-bottom: 10vh;
-  font-size: 8vw;
-  margin-left: 8vw;
+  padding-bottom: 1vh;
+  font-size: 6vw;
+}
+#intro span
+{
+  color: black;
+  background-color: #A3BCF9;
+}
+#intro span:hover
+{
+  color: #A3BCF9;
+  background-color: white;
+  text-decoration-line: none;
+}
+#intro a:hover
+{
+  color: #A3BCF9;
+  background-color: white;
+  text-decoration-line: none;
+}
+#intro h3
+{
+  font-size: 1.6vw;
+  margin-bottom: 10vh;
+  color: black;
+}
+#intro h3:hover
+{
+  color: #A3BCF9;
 }
 
 #intro h6
@@ -56,25 +82,20 @@ body
     color: black;
     font-size: 3vw;
     margin-bottom: 40vh;
-    margin-left: 8vw;
+}
+#intro h6:hover
+{
+    color: #D1D2F9;
+    text-decoration-line: none;
 }
 /*-----------------goal----------------*/
 #goal h2
 {
   padding-top: 4vh;
   font-size: 4vw;
-  margin-left: 8vw;
 }
-#goal p
-{
-  margin-left: 8vw;
-  font-size: 1.5vw;
-}
+
 /*-----------------photo1----------------*/
-#photo1
-{
-  margin-left: 8vw;
-}
 #photo1 img
 {
   max-width: 100%;
@@ -86,7 +107,6 @@ body
 /*-----------------skills----------------*/
 #skills
 {
-  margin-left: 8vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -103,10 +123,6 @@ body
 }
 
 /*-----------------photo2----------------*/
-#photo2
-{
-  margin-left: 8vw;
-}
 #photo2 img
 {
   max-width: 80%;
@@ -122,10 +138,6 @@ body
 }
 
 /*-----------------about----------------*/
-#about
-{
-  margin-left: 8vw;
-}
 #about h2
 {
   padding-top: 8vh;
@@ -139,10 +151,6 @@ body
 }
 
 /*-----------------photo3----------------*/
-#photo3
-{
-  margin-left: 8vw;
-}
 #photo3 img
 {
   max-width: 80%;
@@ -158,10 +166,6 @@ body
 }
 
 /*-----------------result----------------*/
-#result
-{
-  margin-left: 8vw;
-}
 #result h2
 {
   padding-top: 8vh;
@@ -180,10 +184,6 @@ body
 }
 
 /*-----------------result-photo----------------*/
-#result-photo
-{
-  margin-left: 8vw;
-}
 #result-photo img
 {
   max-width: 100%;
@@ -193,10 +193,6 @@ body
 }
 
 /*-----------------challenges----------------*/
-#challenges
-{
-  margin-left: 8vw;
-}
 #challenges h2
 {
   padding-top: 8vh;
@@ -222,10 +218,6 @@ body
 }
 
 /*-----------------process----------------*/
-#process
-{
-  margin-left: 8vw;
-}
 #process h2
 {
   padding-top: 8vh;
@@ -245,10 +237,6 @@ body
 }
 
 /*-----------------process-photo----------------*/
-#process-photo
-{
-  margin-left: 8vw;
-}
 #process-photo img
 {
   max-width: 100%;
@@ -258,10 +246,6 @@ body
 }
 
 /*-----------------solutions----------------*/
-#solutions
-{
-  margin-left: 8vw;
-}
 #solutions h2
 {
   padding-top: 8vh;
@@ -333,8 +317,8 @@ body
 /*-----------------pageturn----------------*/
 #pageturn
 {
-  margin-left: 8vw;
   margin-top: 10px;
+  margin-left: 8vw;
 }
 .navbar
 {
@@ -357,6 +341,6 @@ body
 }
 .navbar a:hover
 {
-  color: lightblue;
+  color: #A3BCF9;
   text-decoration-line: none;
 }

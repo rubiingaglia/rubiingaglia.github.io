@@ -8,27 +8,27 @@
 /*-----------------sidenav----------------*/
 #sidenav
 {
-  height: 100%;
-  width: 8vw;
+  height: auto;
+  width: 60px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 #sidenav a
 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 30px;
   color: black;
   display: block;
 }
 #sidenav a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }
 @media screen and (max-height: 450px)
@@ -38,39 +38,71 @@
 }
 
 /*-----------------intro----------------*/
-#intro
-{
-  margin-left: 8vw;
-}
 #intro h1
 {
   padding-top: 35vh;
   padding-bottom: 10vh;
   font-size: 6vw;
 }
+#intro span
+{
+  color: black;
+  background-color: #D1D2F9;
+}
 
+#intro span:hover
+{
+  color: #D1D2F9;
+  background-color: white;
+  text-decoration-line: none;
+}
+#intro a:hover
+{
+  color: #D1D2F9;
+  background-color: white;
+  text-decoration-line: none;
+}
 #intro h6
 {
     color: black;
     font-size: 3vw;
     margin-bottom: 50vh;
 }
+#intro h6:hover
+{
+    color: #D1D2F9;
+    text-decoration-line: none;
+}
 
-#intro h2
+/*-----------------goal----------------*/
+#goal h2
 {
   padding-top: 4vh;
   padding-bottom: 0;
   font-size: 4vw;
 }
-#intro p
+
+/*-----------------about----------------*/
+#about
 {
-  font-size: 1.5vw;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+#about h2
+{
+  padding-top: 8vh;
+  padding-bottom: 4vh;
+  font-size: 4vw;
+}
+#about h4
+{
+  padding-bottom: 2vh;
+  font-size: 2.5vw;
 }
 
 /*-----------------result----------------*/
 #result
 {
-  margin-left: 8vw;
   margin-top: 6vh;
   margin-bottom: 6vh;
 }
@@ -89,10 +121,6 @@
 }
 
 /*-----------------challenges----------------*/
-#challenges
-{
-  margin-left: 8vw;
-}
 #challenges h2
 {
   padding-top: 8vh;
@@ -107,10 +135,6 @@
 }
 
 /*-----------------process----------------*/
-#process
-{
-  margin-left: 8vw;
-}
 #process h2
 {
   padding-top: 8vh;
@@ -123,10 +147,6 @@
 }
 
 /*-----------------focus-areas----------------*/
-#focus-areas
-{
-  margin-left: 8vw;
-}
 #focus-areas h2
 {
   padding-top: 8vh;
@@ -140,10 +160,6 @@
 }
 
 /*-----------------solutions----------------*/
-#solutions
-{
-  margin-left: 8vw;
-}
 #solutions h2
 {
   padding-top: 8vh;
@@ -161,7 +177,6 @@
 /*-----------------pageturnbottom----------------*/
 #pageturn
 {
-  margin-left: 8vw;
   margin-top: 10px;
 }
 .navbar
@@ -185,6 +200,6 @@
 }
 .navbar a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }

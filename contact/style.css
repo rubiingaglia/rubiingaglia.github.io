@@ -8,27 +8,27 @@
 /*-----------------sidenav----------------*/
 #sidenav
 {
-  height: 100%;
-  width: 8vw;
+  height: auto;
+  width: 60px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 #sidenav a
 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 30px;
   color: black;
   display: block;
 }
 #sidenav a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }
 @media screen and (max-height: 450px)
@@ -40,7 +40,6 @@
 /*-----------------intro----------------*/
 #intro
 {
-  margin-left: 8vw;
   margin-bottom: 10vh;
   margin-top: 20vh;
 }
@@ -70,6 +69,6 @@
 }
 #intro a:hover
 {
-  color: lightblue;
+  color: #D1D2F9;
   text-decoration-line: none;
 }
