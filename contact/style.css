@@ -58,8 +58,19 @@
   padding-top: 4vh;
   padding-bottom: 4vh;
   font-size: 4vw;
+  color: black;
 }
-#intro a
+#intro h1:hover
+{
+  color: #D1D2F9;
+  text-decoration-line: none;
+}
+#intro a:hover
+{
+  color: #D1D2F9;
+  text-decoration-line: none;
+}
+#intro h3
 {
   color: black;
   font-size: 40px;
@@ -67,7 +78,7 @@
   margin-right: 50%;
   font-size: 4vw;
 }
-#intro a:hover
+#intro h3:hover
 {
   color: #D1D2F9;
   text-decoration-line: none;

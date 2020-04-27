@@ -234,6 +234,8 @@ body
 #process p
 {
   font-size: 2vw;
+  margin-left: 1vw;
+  margin-right: 3vw;
 }
 
 /*-----------------process-photo----------------*/
