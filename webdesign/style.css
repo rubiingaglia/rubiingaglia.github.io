@@ -160,6 +160,10 @@
 }
 
 /*-----------------solutions----------------*/
+#solutions
+{
+  margin-bottom: 8vh;
+}
 #solutions h2
 {
   padding-top: 8vh;
